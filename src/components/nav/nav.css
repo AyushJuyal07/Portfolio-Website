@@ -1,24 +1,35 @@
 nav{
-    background: rgba(0, 0, 0, 0.3);
+    /*background: rgba(0, 0, 0, 0.3);
     width: max-content;
     display: block;
     padding: 0.7rem 1.7rem;
+    */ 
+    /* position: fixed; */
+    max-width: 100%;
     z-index: 2;
-    position: fixed;
-    left: 50%;
+    /* position: fixed;  */
+    /*left: 50%;
     transform: translate(-50%);
-    bottom: 2rem;
+    bottom: 2rem; */
+    /* position: fixed; */
     display: flex;
-    gap: 0.8rem;
+    justify-content: flex-end;
+    padding-right: 15rem;
+    
+    /* margin-left: 58rem; */
+    /* gap: 0.8rem;
     border-radius: 3rem;
-    backdrop-filter: blur(15px);
+    backdrop-filter: blur(15px); */
+    /* background: var(--color-primary); */
+    box-shadow: 0px 15px 10px -14px #111;
 
 }
 
 nav a{
     background: transparent;
     padding: 0.9rem;
-    border-radius: 50%;
+    margin: 0 1rem;
+    border-radius: 10%;
     display: flex;
     font-size: 1.1rem;
     
@@ -29,6 +40,19 @@ nav a:hover{
 }
 
 nav a.active{
-    background: var(--color-primary);
-    color: var(--color-bg);
+    /* background: var(--color-primary); */
+    /* color: var(--color-bg); */
+}
+
+
+@media screen and (max-width: 1024px){
+    nav{
+        padding-right: 5rem;
+    }
+}
+
+@media screen and (max-width: 600px){
+    nav{
+        padding-right: 0;
+    }
 }

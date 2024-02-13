@@ -1,10 +1,28 @@
-header {
-    height: 100vh;
-    padding-top: 7rem;
-    overflow: hidden;
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;800&display=swap');
 
+
+
+header {
+    /* height: 100vh; */
+    padding-top: 3rem;
+    overflow: hidden;
 }
 
+.header__container h5{
+    font-family: 'Inter', sans-serif;
+    font-size: 5rem;
+    font-weight: 800;
+    margin-bottom: 1rem;
+    text-shadow: 1px 1px 3px;
+}
+
+.header__container h6{
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 1.3rem;
+    padding: 0 11rem;
+    margin-bottom: 2rem;
+}
 
 .header__container {
     text-align: center;
@@ -48,17 +66,22 @@ header {
 
 .me {
     background: linear-gradient(var(--color-primary), transparent);
-    width: 22rem;
-    height: 30rem;
-    position: absolute;
-    left: calc(50% - 11rem);
-    margin-top: 4.3rem;
-    border-radius: 12rem 12rem 0 0;
+    /* width: 22rem; */
+    /* height: 30rem; */
+    /* position: absolute; */
+    /* left: calc(50% - 11rem); */
+    /* margin-top: 4.3rem; */
+    border-radius: 12rem 12rem 12rem 12rem;
+    /* overflow: hidden; */
+    /* padding: 5rem 1.5rem 1.5rem 1.5rem; */
+    max-width: 15rem;
+    /* text-align: center; */
+    margin: 0 auto;
     overflow: hidden;
-    padding: 5rem 1.5rem 1.5rem 1.5rem;
 
 
 }
+
 
 
 /*====================== Scroll Down ===================*/
@@ -84,7 +107,15 @@ header {
 
 
 @media screen and (max-width: 600px){
-    header{
+    /* header{
         height: 100vh;
+    } */
+
+    .header__container h5{
+        font-size: 4rem;
+    }
+
+    .header__container h6{
+        padding: 0;
     }
 }

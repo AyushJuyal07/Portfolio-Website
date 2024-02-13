@@ -2,24 +2,24 @@ import React from 'react'
 import './header.css'
 import CTA from './CTA'
 import ME from '../../assets/me.png'
-import HeaderSocials from './HeaderSocials'
+// import HeaderSocials from './HeaderSocials'
 
 const Header = () => {
   return (
     <header>
       <div className="container header__container">
-        <h5>Hello I'm</h5>
-        <h1>Ayush Juyal</h1>
-        <h5 className='text-light'>Fullstack Developer</h5>
-        <CTA />
-        <HeaderSocials />
-
+        <h5>FULL STACK DEVELOPER</h5>
+        <h6>Hey, I'm Ayush Juyal, a web developer with a portfolio showcasing visually appealing and user-friendly websites. Let's bring your ideas to life!</h6>
+        {/* <h6 className='text-light'>Fullstack Developer</h6> */}
         <div className="me">
           <img src={ME} alt="me" />
 
         </div>
+        <CTA />
+        {/* <HeaderSocials /> */}
 
-        <a href="#contact" className='scroll__down'>Scroll Down</a>
+
+        {/* <a href="#contact" className='scroll__down'>Scroll Down</a> */}
 
       </div>
 
