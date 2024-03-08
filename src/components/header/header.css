@@ -1,7 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;800&display=swap');
 
-
-
 header {
     /* height: 100vh; */
     padding-top: 3rem;
@@ -27,7 +25,7 @@ header {
 .header__container {
     text-align: center;
     height: 100%;
-    position: relative;
+    /* position: relative; */
 }
 
 /*====================== CTA ===================*/
@@ -42,7 +40,7 @@ header {
 
 /*====================== Header Socials ===================*/
 
-.header__socials {
+/* .header__socials {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -51,7 +49,7 @@ header {
     position: absolute;
     left: 0;
     bottom: 5rem;
-}
+} */
 
 .header__socials::after {
     content: "";
@@ -86,7 +84,7 @@ header {
 
 /*====================== Scroll Down ===================*/
 
-.scroll__down {
+/* .scroll__down {
     position: absolute;
     right: -2.3rem;
     bottom: 5rem;
@@ -94,7 +92,7 @@ header {
     font-weight: 300;
     font-size: 0.9rem;
 
-}
+} */
 
 
 /* ==================== Media Queries (Medium Devices) ========================*/
@@ -106,16 +104,32 @@ header {
 /* ==================== Media Queries (Small Devices) ========================*/
 
 
+@media screen and (max-width: 1024px){
+    .header__container h5{
+        font-size: 3.5rem;
+    }
+    .header__container h6{
+        padding: 1.5rem;
+    }
+}
+
 @media screen and (max-width: 600px){
-    /* header{
-        height: 100vh;
-    } */
+    header{
+        margin-top: 2.2rem;
+        padding-bottom: 8rem;
+
+    }
+
+    .me {
+        display: none;
+    }
 
     .header__container h5{
-        font-size: 4rem;
+        font-size: 3rem;
     }
 
     .header__container h6{
-        padding: 0;
+        font-size: 1rem;
+        padding: 1.5rem;
     }
 }
