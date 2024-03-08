@@ -64,6 +64,57 @@ const Experience = () => {
 
         </div>
 
+
+                  {/* Tools */}
+
+                  <div className="experience__backend">
+
+<h3>Tools</h3>
+  <div className="experience__content">
+
+
+    <article className='experience__details'>
+      <BsFillPatchCheckFill className= 'experience__details-icons' />
+      <div>
+        <h4>GitHub</h4>
+        
+      </div>
+    </article>
+    <article className='experience__details'>
+      <BsFillPatchCheckFill className= 'experience__details-icons' />
+      <div>
+        <h4>Git</h4>
+        
+      </div>
+    </article>
+
+    <article className='experience__details'>
+      <BsFillPatchCheckFill className= 'experience__details-icons' />
+      <div>
+        <h4>MongoDB</h4>
+        
+      </div>
+    </article>
+    <article className='experience__details'>
+      <BsFillPatchCheckFill className= 'experience__details-icons' />
+      <div>
+        <h4>Figma</h4>
+        
+      </div>
+    </article>
+
+    <article className='experience__details'>
+      <BsFillPatchCheckFill className= 'experience__details-icons' />
+      <div>
+        <h4>Photoshop</h4>
+        
+      </div>
+    </article>
+
+  </div>
+
+</div>
+
         {/* END OF FRONTEND */}
 
         <div className="experience__backend">
@@ -106,55 +157,6 @@ const Experience = () => {
         </div>
 
 
-          {/* Tools */}
-
-        <div className="experience__backend">
-
-          <h3>Tools</h3>
-            <div className="experience__content">
-
-
-              <article className='experience__details'>
-                <BsFillPatchCheckFill className= 'experience__details-icons' />
-                <div>
-                  <h4>GitHub</h4>
-                  
-                </div>
-              </article>
-              <article className='experience__details'>
-                <BsFillPatchCheckFill className= 'experience__details-icons' />
-                <div>
-                  <h4>Git</h4>
-                  
-                </div>
-              </article>
-
-              <article className='experience__details'>
-                <BsFillPatchCheckFill className= 'experience__details-icons' />
-                <div>
-                  <h4>MongoDB</h4>
-                  
-                </div>
-              </article>
-              <article className='experience__details'>
-                <BsFillPatchCheckFill className= 'experience__details-icons' />
-                <div>
-                  <h4>Figma</h4>
-                  
-                </div>
-              </article>
-
-              <article className='experience__details'>
-                <BsFillPatchCheckFill className= 'experience__details-icons' />
-                <div>
-                  <h4>Photoshop</h4>
-                  
-                </div>
-              </article>
-
-            </div>
-
-        </div>
 
         <div className="experience__backend">
 
